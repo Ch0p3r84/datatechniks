@@ -119,6 +119,11 @@
     color: var(--accent-blue);
 }
 
+.equipment-img {
+    max-height: 160px;
+    object-fit: contain;
+}
+
 /* CONTACT SECTION */
 .contact-section {
     background-color: var(--light-gray);

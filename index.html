@@ -1,512 +1,360 @@
 <!DOCTYPE html>
-<html lang="bg">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Techniks</title>
+    <title>Fiber Optic Infrastructure | Data Center Deployment - Data Techniks Ltd</title>
 
     <!-- Bootstrap CSS -->
-    <link 
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
-        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- Inter font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
-
-    <!-- Bootstrap Icons -->
-    <link 
-        rel="stylesheet" 
-        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 
 <body>
-<!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3">
-    <div class="container">
-        <a class="navbar-brand fw-bold text-primary" href="#">
-            <span style="color:#0A2540;">CompanyName</span>
-        </a>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#home">Data Techniks Ltd</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="mainNav">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Home</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About Us</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#services">Services</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#capabilities">Capabilities</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-
+        <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#capabilities">Capabilities</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
             </ul>
-
-            <a href="#contact" class="btn btn-primary ms-lg-3 px-4">
-                Get in Touch
-            </a>
         </div>
     </div>
 </nav>
-<!-- HERO SECTION -->
-<section class="hero-section d-flex align-items-center">
+
+<!-- HERO -->
+<section id="home" class="hero-section d-flex align-items-center">
     <div class="container">
-        <div class="row align-items-center">
-            
-            <!-- Text -->
-            <div class="col-lg-6">
-                <h1 class="display-4 fw-bold text-dark mb-4">
-                    High‑Precision Fiber Optic Solutions for Data Centers
+        <div class="row align-items-center g-4">
+            <div class="col-lg-7">
+                <h1 class="hero-title text-dark mb-3">
+                    High‑precision fiber optic services for mission‑critical networks
                 </h1>
-
-                <p class="lead text-secondary mb-4">
-                    We specialize in data center fiber infrastructure, ribbon and single‑fiber splicing, 
-                    OTDR/OLTS testing, and high‑density optical connectivity across Europe.
+                <p class="hero-subtitle text-secondary mb-4">
+                    We design, test, certify, and restore high‑density fiber infrastructures for data centers,
+                    carriers, and enterprise environments across Europe.
                 </p>
-                <a href="#contact" class="btn btn-primary btn-lg px-4 me-3">Get in Touch</a>
-                <a href="#services" class="btn btn-outline-primary btn-lg px-4">Our Services</a>
+                <a href="#capabilities" class="btn btn-primary me-2">View capabilities</a>
+                <a href="#contact" class="btn btn-outline-primary">Get in touch</a>
             </div>
-
-            <!-- Image -->
-            <div class="col-lg-6 text-center mt-5 mt-lg-0">
-                <img src="https://via.placeholder.com/500x350" class="img-fluid rounded shadow" alt="Business illustration">
+            <div class="col-lg-5 text-center text-lg-end">
+                <i class="bi bi-hdd-network text-primary" style="font-size: 4rem;"></i>
             </div>
-
         </div>
     </div>
 </section>
 
-<!-- ABOUT US -->
-<section id="about" class="about-section py-5">
+<!-- ABOUT -->
+<section id="about" class="py-5">
     <div class="container">
-        <div class="row align-items-center">
-
-            <!-- Image -->
-            <div class="col-lg-6 mb-4 mb-lg-0">
-                <img src="https://via.placeholder.com/500x350" 
-                     class="img-fluid rounded shadow-sm" 
-                     alt="About our company">
-            </div>
-
-            <!-- Text -->
+        <div class="row g-4 align-items-center">
             <div class="col-lg-6">
-                <h2 class="fw-bold text-dark mb-4">About Our Company</h2>
+                <h2 class="fw-bold text-dark mb-3">About us</h2>
                     <p class="text-secondary mb-3">
-                        We are a specialized fiber engineering company focused on delivering high‑precision optical 
-                        infrastructure for data centers, telecom operators, and enterprise environments.
+                        We specialize in the deployment, testing, and certification of high‑density fiber optic
+                        infrastructures for data centers, telecom operators, and enterprise networks. Our work is
+                        driven by precision, reliability, and strict adherence to industry standards.
                     </p>
 
-                    <p class="text-secondary mb-4">
-                        Our team is experienced in ribbon and single‑fiber splicing, OTDR Tier 2 certification, OLTS 
-                        validation, MPO/MTP backbone deployment, and high‑density cabling for mission‑critical facilities.
+                    <p class="text-secondary mb-3">
+                        With extensive field experience and advanced instrumentation, we deliver end‑to‑end fiber
+                        solutions — from backbone construction and ribbon splicing to Tier 1/Tier 2 certification
+                        and rapid restoration of mission‑critical links.
                     </p>
-
-                <a href="#services" class="btn btn-primary px-4">Learn More</a>
             </div>
 
+            <div class="col-lg-6">
+                <div class="p-4 border rounded-3 bg-white shadow-sm">
+                    <h5 class="fw-bold text-dark mb-3">Why clients work with us</h5>
+                    <ul class="list-unstyled text-secondary mb-0">
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Certified Tier 1 & Tier 2 testing workflows</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Proven experience in high‑fiber‑count deployments</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Detailed reporting and documentation</li>
+                        <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Focus on uptime and reliability</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </section>
 
-<!-- SERVICES SECTION -->
-<section id="services" class="services-section py-5">
-    <div class="container text-center">
-
-        <h2 class="fw-bold text-dark mb-4">Our Core Services</h2>
-        <p class="text-secondary mb-5">
-            We deliver high‑precision fiber optic solutions for data centers, telecom operators, and 
-            enterprise environments across Europe.
-        </p>
-
-        <div class="row g-4">
-
-            <!-- Service 1 -->
-            <div class="col-md-6 col-lg-4">
-                <div class="service-card p-4 shadow-sm h-100 rounded">
-                    <div class="icon mb-3">
-                        <i class="bi bi-hdd-network text-primary fs-1"></i>
-                    </div>
-                    <h5 class="fw-bold text-dark mb-2">Data Center Fiber Infrastructure</h5>
-                        <p class="text-secondary">
-                            Complete fiber infrastructure deployment for hyperscale and enterprise data centers, including 
-                            structured cabling, backbone routing, high‑density patching, and end‑to‑end optical link integration 
-                            following industry standards (TIA/EIA, ISO/IEC).
-                        </p>
-                </div>
-            </div>
-
-            <!-- Service 2 -->
-            <div class="col-md-6 col-lg-4">
-                <div class="service-card p-4 shadow-sm h-100 rounded">
-                    <div class="icon mb-3">
-                        <i class="bi bi-layers text-primary fs-1"></i>
-                    </div>
-                    <h5 class="fw-bold text-dark mb-2">Ribbon & Single Fiber Splicing</h5>
-                        <p class="text-secondary">
-                            High‑precision fusion splicing for both single fibers and ribbon cables, including mass fusion for 
-                            864F, 1728F, and 3456F deployments. We ensure minimal splice loss, full trace documentation, and 
-                            compliance with data center performance requirements.
-                        </p>
-                </div>
-            </div>
-
-            <!-- Service 3 -->
-            <div class="col-md-6 col-lg-4">
-                <div class="service-card p-4 shadow-sm h-100 rounded">
-                    <div class="icon mb-3">
-                        <i class="bi bi-graph-up text-primary fs-1"></i>
-                    </div>
-                    <h5 class="fw-bold text-dark mb-2">OTDR Tier 2 Testing</h5>
-                        <p class="text-secondary">
-                            Full Tier 2 OTDR testing with event analysis, splice and connector loss evaluation, reflectance 
-                            measurement, fault localization, and detailed reporting. Performed using EXFO/VIAVI equipment for 
-                            maximum accuracy and certification compliance.
-                        </p>
-                </div>
-            </div>
-
-            <!-- Service 4 -->
-            <div class="col-md-6 col-lg-4">
-                <div class="service-card p-4 shadow-sm h-100 rounded">
-                    <div class="icon mb-3">
-                        <i class="bi bi-lightning-charge text-primary fs-1"></i>
-                    </div>
-                    <h5 class="fw-bold text-dark mb-2">OLTS Power Meter Testing</h5>
-                        <p class="text-secondary">
-                            Tier 1 OLTS testing with precise insertion loss and optical power measurements across all wavelengths. 
-                            Ideal for validating new installations, verifying link budgets, and ensuring long‑term network 
-                            reliability in mission‑critical environments.
-                        </p>
-                </div>
-            </div>
-
-            <!-- Service 5 -->
-            <div class="col-md-6 col-lg-4">
-                <div class="service-card p-4 shadow-sm h-100 rounded">
-                    <div class="icon mb-3">
-                        <i class="bi bi-diagram-3 text-primary fs-1"></i>
-                    </div>
-                    <h5 class="fw-bold text-dark mb-2">MPO/MTP Backbone Installation</h5>
-                        <p class="text-secondary">
-                            Deployment of high‑capacity MPO/MTP backbone links, including polarity type A/B/C management, 
-                            connector inspection, end‑face cleaning, and performance validation. Suitable for high‑density 
-                            data center environments and scalable optical networks.
-                        </p>
-                </div>
-            </div>
-
-            <!-- Service 6 -->
-            <div class="col-md-6 col-lg-4">
-                <div class="service-card p-4 shadow-sm h-100 rounded">
-                    <div class="icon mb-3">
-                        <i class="bi bi-tools text-primary fs-1"></i>
-                    </div>
-                    <h5 class="fw-bold text-dark mb-2">Fiber Troubleshooting & Maintenance</h5>
-                        <p class="text-secondary">
-                            Rapid fault detection and restoration using OTDR diagnostics, visual fault locators, connector 
-                            inspection, and fiber end‑face cleaning. We provide emergency repairs, preventive maintenance, 
-                            and long‑term reliability optimization.
-                        </p>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-<!-- PROJECTS SECTION -->
-<section id="projects" class="projects-section py-5">
-    <div class="container text-center">
-
-        <h2 class="fw-bold text-dark mb-4">Recent Projects</h2>
-        <p class="text-secondary mb-5">
-            A selection of our latest data center and high-density fiber infrastructure deployments 
-            across Europe.
-        </p>
-
-        <div class="row g-4">
-
-            <!-- Project 1 -->
-            <div class="col-md-6 col-lg-4">
-                <div class="project-card shadow-sm rounded overflow-hidden h-100">
-                    <img src="https://via.placeholder.com/600x400" class="img-fluid" alt="Data Center Fiber Deployment">
-                    <div class="p-4 text-start">
-                        <h5 class="fw-bold text-dark">Data Center Fiber Deployment</h5>
-                        <p class="text-secondary small">
-                            High-density single and ribbon fiber installation for a Tier III data center, 
-                            including structured cabling and MPO/MTP backbone integration.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Project 2 -->
-            <div class="col-md-6 col-lg-4">
-                <div class="project-card shadow-sm rounded overflow-hidden h-100">
-                    <img src="https://via.placeholder.com/600x400" class="img-fluid" alt="Ribbon Splicing Project">
-                    <div class="p-4 text-start">
-                        <h5 class="fw-bold text-dark">Ribbon Splicing & Testing</h5>
-                        <p class="text-secondary small">
-                            1728‑fiber ribbon splicing project with full OTDR Tier 2 certification and 
-                            power meter validation for long‑haul connectivity.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Project 3 -->
-            <div class="col-md-6 col-lg-4">
-                <div class="project-card shadow-sm rounded overflow-hidden h-100">
-                    <img src="https://via.placeholder.com/600x400" class="img-fluid" alt="MPO/MTP Backbone Installation">
-                    <div class="p-4 text-start">
-                        <h5 class="fw-bold text-dark">MPO/MTP Backbone Installation</h5>
-                        <p class="text-secondary small">
-                            Deployment of high‑capacity MPO/MTP backbone links for a hyperscale data center, 
-                            including polarity management and end‑to‑end testing.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-</section>
-
-<!-- CAPABILITIES SECTION -->
-<section id="capabilities" class="capabilities-section py-5">
+<!-- CAPABILITIES -->
+<section id="capabilities" class="py-5">
     <div class="container">
 
         <div class="text-center mb-5">
-            <h2 class="fw-bold text-dark">Core competencies</h2>
+            <h2 class="fw-bold text-dark">Capabilities</h2>
             <p class="text-secondary">
-                Our team is equipped with advanced tools and expertise to deliver high‑precision fiber optic 
-                solutions for mission‑critical environments.
+                We combine proven field expertise with industry‑leading equipment to deliver reliable,
+                standards‑compliant fiber optic solutions.
             </p>
         </div>
 
-        <div class="row g-4">
+        <!-- CORE COMPETENCIES -->
+        <h3 class="fw-bold text-dark text-center mb-3">Core Competencies</h3>
+        <p class="text-secondary text-center mb-4">
+            High‑precision fiber optic services delivered with advanced instrumentation, proven methodologies,
+            and deep expertise in mission‑critical environments.
+        </p>
 
-            <!-- Capability 1 -->
+        <div class="row g-4 mb-5">
+
+            <!-- OTDR Tier 2 Analysis -->
             <div class="col-md-6 col-lg-4">
                 <div class="capability-card p-4 shadow-sm h-100 rounded">
                     <i class="bi bi-graph-up-arrow fs-1 text-primary mb-3"></i>
-                    <h5 class="fw-bold text-dark">OTDR Tier 2 Analysis</h5>
+                    <h5 class="fw-bold">OTDR Tier 2 Analysis</h5>
                     <p class="text-secondary">
-                        Advanced OTDR testing with detailed trace interpretation, fault localization, 
-                        and full Tier 2 certification for long‑haul and data center links.
+                        Advanced Tier 2 OTDR testing with detailed event analysis, splice and connector evaluation,
+                        fault localization, and full trace documentation. Ensures compliance with hyperscale
+                        data center and carrier‑grade performance requirements.
                     </p>
                 </div>
             </div>
 
-            <!-- Capability 2 -->
+            <!-- OLTS Certification -->
             <div class="col-md-6 col-lg-4">
                 <div class="capability-card p-4 shadow-sm h-100 rounded">
                     <i class="bi bi-lightning fs-1 text-primary mb-3"></i>
-                    <h5 class="fw-bold text-dark">OLTS Certification</h5>
+                    <h5 class="fw-bold">OLTS Certification</h5>
                     <p class="text-secondary">
-                        Accurate insertion loss and optical power measurements using industry‑standard OLTS 
-                        equipment to ensure optimal link performance.
+                        Tier 1 OLTS certification with accurate insertion loss and optical power measurements
+                        for both multimode and single‑mode links. Delivered with full reporting and compliance
+                        with ISO/IEC and TIA standards.
                     </p>
                 </div>
             </div>
 
-            <!-- Capability 3 -->
+            <!-- Ribbon & Single Fiber Splicing -->
             <div class="col-md-6 col-lg-4">
                 <div class="capability-card p-4 shadow-sm h-100 rounded">
                     <i class="bi bi-layers fs-1 text-primary mb-3"></i>
-                    <h5 class="fw-bold text-dark">Ribbon & Single Fiber Splicing</h5>
+                    <h5 class="fw-bold">Ribbon & Single Fiber Splicing</h5>
                     <p class="text-secondary">
-                        High‑precision fusion splicing for both single fibers and ribbon cables, including 
-                        mass fusion for 864‑fiber and 1728‑fiber deployments.
+                        High‑precision fusion splicing for single fibers and ribbon cables, including mass fusion
+                        for 12‑fiber ribbons and high‑fiber‑count backbone systems up to 6912 fibers. Ensures
+                        ultra‑low splice loss, consistent performance, and fast deployment across metro, long‑haul,
+                        and hyperscale data center infrastructures.
                     </p>
                 </div>
             </div>
 
-            <!-- Capability 4 -->
+            <!-- MPO/MTP Polarity Management -->
             <div class="col-md-6 col-lg-4">
                 <div class="capability-card p-4 shadow-sm h-100 rounded">
                     <i class="bi bi-diagram-3 fs-1 text-primary mb-3"></i>
-                    <h5 class="fw-bold text-dark">MPO/MTP Polarity Management</h5>
+                    <h5 class="fw-bold">MPO/MTP Polarity Management</h5>
                     <p class="text-secondary">
-                        Installation and verification of MPO/MTP systems, including polarity type A/B/C 
-                        management and end‑to‑end performance validation.
+                        Installation, testing, and polarity verification for MPO/MTP systems, including Type A/B/C
+                        configurations. Ensures correct end‑to‑end mapping, low‑loss performance, and compatibility
+                        with modern high‑density data center architectures.
                     </p>
                 </div>
             </div>
 
-            <!-- Capability 5 -->
+            <!-- High-Density Data Center Cabling -->
             <div class="col-md-6 col-lg-4">
                 <div class="capability-card p-4 shadow-sm h-100 rounded">
                     <i class="bi bi-hdd-network fs-1 text-primary mb-3"></i>
-                    <h5 class="fw-bold text-dark">High‑Density Data Center Cabling</h5>
+                    <h5 class="fw-bold">High‑Density Data Center Cabling</h5>
                     <p class="text-secondary">
-                        Structured cabling for hyperscale and enterprise data centers, including 
-                        high‑density patching, backbone links, and cable management.
+                        Structured cabling solutions for hyperscale and enterprise data centers, including backbone
+                        links, high‑density patching, optimized routing, and fiber management designed for reliability,
+                        scalability, and long‑term operational efficiency.
                     </p>
                 </div>
             </div>
 
-            <!-- Capability 6 -->
+            <!-- Fiber Troubleshooting & Restoration -->
             <div class="col-md-6 col-lg-4">
                 <div class="capability-card p-4 shadow-sm h-100 rounded">
                     <i class="bi bi-tools fs-1 text-primary mb-3"></i>
-                    <h5 class="fw-bold text-dark">Fiber Troubleshooting & Restoration</h5>
+                    <h5 class="fw-bold">Fiber Troubleshooting & Restoration</h5>
                     <p class="text-secondary">
-                        Rapid fault detection, emergency repairs, and restoration services to ensure 
-                        maximum uptime and network reliability.
+                        Rapid fault detection and restoration using advanced OTDR, VFL, and inspection tools.
+                        Provides precise fault localization, minimal downtime, and fast recovery for
+                        mission‑critical optical networks.
                     </p>
                 </div>
             </div>
 
         </div>
-    </div>
-</section>
-<section id="equipment" class="py-5">
-    <div class="container">
 
-        <div class="text-center mb-5">
-            <h2 class="fw-bold text-dark">Technical Capabilities</h2>
-            <p class="text-secondary">
-                We operate with industry‑leading equipment to ensure precision, reliability, 
-                and full compliance with international fiber optic standards.
-            </p>
-        </div>
+        <!-- TECHNICAL CAPABILITIES (EQUIPMENT) -->
+        <h3 class="fw-bold text-dark text-center mb-3">Technical Capabilities (Equipment)</h3>
+        <p class="text-secondary text-center mb-4">
+            We operate with industry‑leading test instruments and fusion splicing platforms.
+        </p>
 
         <div class="row g-4">
 
-            <!-- Fluke CertiFiber Pro -->
             <div class="col-md-4 text-center">
                 <img src="images/certifiber-pro.jpg" class="img-fluid mb-3 equipment-img" alt="Fluke CertiFiber Pro">
                 <h5 class="fw-bold">Fluke CertiFiber Pro</h5>
-                <p class="text-secondary small">
-                    High‑speed Tier 1 certification tool for multimode and single‑mode fiber. 
-                    Provides accurate insertion loss measurements, optical power validation, 
-                    and full compliance with ISO/IEC and TIA standards.
-                </p>
+                <p class="text-secondary small">High‑speed Tier 1 certification platform for multimode and single‑mode links, delivering accurate insertion loss measurements and full ISO/IEC & TIA‑compliant reporting.</p>
             </div>
 
-            <!-- Fluke OptiFiber Pro -->
             <div class="col-md-4 text-center">
                 <img src="images/optifiber-pro.jpg" class="img-fluid mb-3 equipment-img" alt="Fluke OptiFiber Pro">
                 <h5 class="fw-bold">Fluke OptiFiber Pro</h5>
-                <p class="text-secondary small">
-                    Advanced Tier 2 OTDR platform designed for high‑density data centers. 
-                    Delivers fast event analysis, fault location, splice loss evaluation, 
-                    and detailed reporting for short‑range and long‑haul links.
-                </p>
+                <p class="text-secondary small">Advanced Tier 2 OTDR designed for high‑density data centers, providing fast event analysis, fault location, and detailed trace documentation.</p>
             </div>
 
-            <!-- Fujikura 90R -->
             <div class="col-md-4 text-center">
-                <img src="images/Fujikura-90r.jpg" class="img-fluid mb-3 equipment-img" alt="Fujikura 90R">
+                <img src="images/fujikura-90r.jpg" class="img-fluid mb-3 equipment-img" alt="Fujikura 90R">
                 <h5 class="fw-bold">Fujikura 90R</h5>
-                <p class="text-secondary small">
-                    High‑precision ribbon fusion splicer supporting mass fusion for 12‑fiber ribbons. 
-                    Ensures low splice loss, consistent performance, and fast deployment 
-                    of high‑fiber‑count backbone cables.
-                </p>
+                <p class="text-secondary small">High‑precision ribbon fusion splicer supporting mass fusion for 12‑fiber ribbons and high‑fiber‑count backbone systems up to 6912 fibers.</p>
+            </div>
+
+            <div class="col-md-4 text-center">
+                <img src="images/viavi-mpolx.jpg" class="img-fluid mb-3 equipment-img" alt="Viavi MPOlx">
+                <h5 class="fw-bold">Viavi MPOlx</h5>
+                <p class="text-secondary small">High‑speed MPO certification system for multimode and single‑mode trunk cables, enabling fast polarity verification and low‑loss performance validation.</p>
+            </div>
+
+            <div class="col-md-4 text-center">
+                <img src="images/viavi-mts4000.jpg" class="img-fluid mb-3 equipment-img" alt="Viavi MTS‑4000">
+                <h5 class="fw-bold">Viavi MTS‑4000</h5>
+                <p class="text-secondary small">Modular OTDR and fiber characterization platform for metro, backbone, and data center environments requiring advanced Tier 1/Tier 2 analysis.</p>
+            </div>
+
+            <div class="col-md-4 text-center">
+                <img src="images/exfo.jpg" class="img-fluid mb-3 equipment-img" alt="EXFO Fiber Testing Platform">
+                <h5 class="fw-bold">EXFO Fiber Testing Platform</h5>
+                <p class="text-secondary small">Industry‑leading OTDR, OLTS, and inspection tools delivering high‑accuracy measurements and end‑face analysis for mission‑critical optical networks.</p>
             </div>
 
         </div>
     </div>
 </section>
 
-<!-- CONTACT SECTION -->
-<section id="contact" class="contact-section py-5">
+<!-- PROJECTS -->
+<section id="projects" class="py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold text-dark">Projects</h2>
+            <p class="text-secondary">Selected references showcasing our experience.</p>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="p-4 border rounded-3 h-100">
+                    <h5 class="fw-bold">Data Center Backbone Upgrade</h5>
+                    <p class="text-secondary small">High‑density spine‑leaf fiber infrastructure with full certification.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="p-4 border rounded-3 h-100">
+                    <h5 class="fw-bold">Carrier Metro Ring Expansion</h5>
+                    <p class="text-secondary small">Long‑haul and metro links with detailed event characterization.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="p-4 border rounded-3 h-100">
+                    <h5 class="fw-bold">Enterprise Campus Fiber Network</h5>
+                    <p class="text-secondary small">Structured cabling and fiber backbone for multi‑building campuses.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-5">
     <div class="container">
 
         <div class="text-center mb-5">
-            <h2 class="fw-bold text-dark">Get in Touch</h2>
+            <h2 class="fw-bold text-dark">Contact</h2>
             <p class="text-secondary">
-                Contact us for project inquiries, technical support, or partnership opportunities.
+                Contact us to discuss your project, request testing, or plan a new deployment. 
+                We respond quickly and provide clear, technical guidance tailored to your infrastructure needs.
             </p>
         </div>
 
         <div class="row g-4">
 
-            <!-- Contact Form -->
-            <div class="col-lg-6">
-                <div class="p-4 shadow-sm rounded bg-white">
-                    <form>
+            <!-- CONTACT DETAILS -->
+            <div class="col-md-6">
+                <div class="p-4 border rounded-3 bg-white shadow-sm h-100">
+                    <h5 class="fw-bold text-dark mb-3">Contact details</h5>
 
-                        <div class="mb-3">
-                            <label class="form-label fw-semibold">Full Name</label>
-                            <input type="text" class="form-control" placeholder="Enter your name">
-                        </div>
+                    <p class="text-secondary mb-2">
+                        <i class="bi bi-envelope-fill text-primary me-2"></i>
+                        <a href="mailto:info@example.com" class="text-decoration-none text-secondary">
+                            info@datatechniks.com
+                        </a>
+                    </p>
 
-                        <div class="mb-3">
-                            <label class="form-label fw-semibold">Email Address</label>
-                            <input type="email" class="form-control" placeholder="example@company.com">
-                        </div>
+                    <p class="text-secondary mb-2">
+                        <i class="bi bi-telephone-fill text-primary me-2"></i>
+                        +359 88 000 0000
+                    </p>
 
-                        <div class="mb-3">
-                            <label class="form-label fw-semibold">Phone Number</label>
-                            <input type="text" class="form-control" placeholder="+359 88 123 4567">
-                        </div>
+                    <p class="text-secondary mb-3">
+                        <i class="bi bi-geo-alt-fill text-primary me-2"></i>
+                        Yambol, Preslav 36
+                    </p>
 
-                        <div class="mb-3">
-                            <label class="form-label fw-semibold">Message</label>
-                            <textarea class="form-control" rows="5" placeholder="How can we help you?"></textarea>
-                        </div>
+                    <!-- GOOGLE MAPS EMBED -->
+                    <div class="map-placeholder mt-3">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2921.316090955!2d26.509!3d42.483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a5b0c0c0c0c0c0%3A0x0000000000000000!2sPreslav%2036%2C%20Yambol!5e0!3m2!1sen!2sbg!4v0000000000000"
+                            width="100%"
+                            height="260"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
 
-                        <button type="submit" class="btn btn-primary w-100 py-2">
-                            Send Message
-                        </button>
-
-                    </form>
                 </div>
             </div>
 
-            <!-- Contact Info -->
-            <div class="col-lg-6">
-                <div class="p-4 shadow-sm rounded bg-white h-100">
+            <!-- CONTACT FORM -->
+            <div class="col-md-6">
+                <div class="p-4 border rounded-3 bg-white shadow-sm h-100">
+                    <h5 class="fw-bold text-dark mb-3">Send a message</h5>
 
-                    <h5 class="fw-bold text-dark mb-3">Contact Information</h5>
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Name</label>
+                            <input type="text" class="form-control" placeholder="Your name">
+                        </div>
 
-                    <p class="text-secondary mb-2">
-                        <i class="bi bi-envelope text-primary me-2"></i>
-                        ruslan.mihalev@datatechniks.com
-                    </p>
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" placeholder="your@email.com">
+                        </div>
 
-                    <p class="text-secondary mb-2">
-                        <i class="bi bi-telephone text-primary me-2"></i>
-                        +359 89 891 0009
-                    </p>
+                        <div class="mb-3">
+                            <label class="form-label">Message</label>
+                            <textarea class="form-control" rows="4" placeholder="Your message"></textarea>
+                        </div>
 
-                    <p class="text-secondary mb-4">
-                        <i class="bi bi-geo-alt text-primary me-2"></i>
-                        Yambol, Bulgaria / Operating across Europe
-                    </p>
-
-                    <div class="map-placeholder rounded">
-                        <iframe 
-                            src="https://www.google.com/maps?q=Yambol,+Preslav+36" 
-                            width="100%" 
-                            height="250" 
-                            style="border:0;" 
-                            allowfullscreen="" 
-                            loading="lazy">
-                        </iframe>
-                    </div>
+                        <button class="btn btn-primary w-100">Send</button>
+                    </form>
 
                 </div>
             </div>
@@ -517,65 +365,33 @@
 
 <!-- FOOTER -->
 <footer class="footer-section py-4">
-    <div class="container">
+    <div class="container text-center">
 
-        <div class="row">
+        <p class="text-secondary mb-1">
+            © 2025 Data Techniks LTD — High‑precision fiber optic solutions
+        </p>
 
-            <!-- Company Info -->
-            <div class="col-md-4 mb-4 mb-md-0">
-                <h5 class="fw-bold text-dark mb-3">CompanyName</h5>
-                <p class="text-secondary small">
-                    Specialized in data center fiber infrastructure, ribbon splicing, OTDR/OLTS testing, 
-                    and high‑density optical connectivity across Europe.
-                </p>
-            </div>
-
-            <!-- Quick Links -->
-            <div class="col-md-4 mb-4 mb-md-0">
-                <h6 class="fw-bold text-dark mb-3">Quick Links</h6>
-                <ul class="list-unstyled">
-                    <li><a href="#about" class="footer-link">About Us</a></li>
-                    <li><a href="#services" class="footer-link">Services</a></li>
-                    <li><a href="#projects" class="footer-link">Projects</a></li>
-                    <li><a href="#capabilities" class="footer-link">Capabilities</a></li>
-                    <li><a href="#contact" class="footer-link">Contact</a></li>
-                </ul>
-            </div>
-
-            <!-- Contact Info -->
-            <div class="col-md-4">
-                <h6 class="fw-bold text-dark mb-3">Contact</h6>
-                <p class="text-secondary small mb-1">
-                    <i class="bi bi-envelope text-primary me-2"></i>
-                    ruslan.mihalev@datatechniks.com
-                </p>
-                <p class="text-secondary small mb-1">
-                    <i class="bi bi-telephone text-primary me-2"></i>
-                    +359 89 891 0009
-                </p>
-                <p class="text-secondary small">
-                    <i class="bi bi-geo-alt text-primary me-2"></i>
-                    Yambol, Bulgaria / Operating across Europe
-                </p>
-            </div>
-
-        </div>
-
-        <hr class="my-4">
-
-        <div class="text-center">
-            <p class="text-secondary small mb-0">
-                © 2026 Data Techniks. All rights reserved.
-            </p>
-        </div>
+        <p class="text-secondary small mb-0">
+            Yambol, Preslav 36 • info@datatechniks.com • +359 89 891 0009
+        </p>
 
     </div>
 </footer>
-<!-- Bootstrap JS (required for mobile menu) -->
+
+<!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Navbar shadow on scroll -->
+<script>
+document.addEventListener("scroll", function() {
+    const nav = document.querySelector(".navbar");
+    if (window.scrollY > 20) {
+        nav.classList.add("scrolled");
+    } else {
+        nav.classList.remove("scrolled");
+    }
+});
+</script>
+
 </body>
-
 </html>
-
-
-

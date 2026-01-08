@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us – Data Techniks Ltd</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="page-with-navbar">
+
+<!-- NAVBAR (same as index) -->
+<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/logo.jpg" alt="Data Techniks Ltd" style="height:32px;">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html#capabilities">Capabilities</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link active" href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- CONTACT -->
+<section id="contact" class="py-5">
+    <div class="container">
+
+        <div class="text-center mb-5">
+            <h2 class="fw-bold text-dark">Contact</h2>
+            <p class="text-secondary">
+                Contact us to discuss your project, request testing, or plan a new deployment. 
+                We respond quickly and provide clear, technical guidance tailored to your infrastructure needs.
+            </p>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- CONTACT DETAILS -->
+            <div class="col-md-6">
+                <div class="p-4 border rounded-3 bg-white shadow-sm h-100">
+                    <h5 class="fw-bold text-dark mb-3">Contact details</h5>
+
+                    <p class="text-secondary mb-2">
+                        <i class="bi bi-envelope-fill text-primary me-2"></i>
+                        <a href="mailto:info@example.com" class="text-decoration-none text-secondary">
+                            info@datatechniks.com
+                        </a>
+                    </p>
+
+                    <p class="text-secondary mb-2">
+                        <i class="bi bi-telephone-fill text-primary me-2"></i>
+                        +359 88 000 0000
+                    </p>
+
+                    <p class="text-secondary mb-3">
+                        <i class="bi bi-geo-alt-fill text-primary me-2"></i>
+                        Yambol, Preslav 36
+                    </p>
+
+                    <!-- GOOGLE MAPS EMBED -->
+                    <div class="map-placeholder mt-3">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2921.316090955!2d26.509!3d42.483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a5b0c0c0c0c0c0%3A0x0000000000000000!2sPreslav%2036%2C%20Yambol!5e0!3m2!1sen!2sbg!4v0000000000000"
+                            width="100%"
+                            height="260"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- CONTACT FORM -->
+            <div class="col-md-6">
+                <div class="p-4 border rounded-3 bg-white shadow-sm h-100">
+                    <h5 class="fw-bold text-dark mb-3">Send a message</h5>
+
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Name</label>
+                            <input type="text" class="form-control" placeholder="Your name">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" placeholder="your@email.com">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Message</label>
+                            <textarea class="form-control" rows="4" placeholder="Your message"></textarea>
+                        </div>
+
+                        <button class="btn btn-primary w-100">Send</button>
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<footer class="footer-section py-4">
+    <div class="container text-center">
+        <p class="text-secondary mb-1">
+            © 2025 Data Techniks LTD — High‑precision fiber optic solutions
+        </p>
+        <p class="text-secondary small mb-0">
+            Yambol, Preslav 36 • info@datatechniks.com • +359 89 891 0009
+        </p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
